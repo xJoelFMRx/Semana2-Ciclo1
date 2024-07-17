@@ -10,7 +10,7 @@ char ValidarLetraNombre()
     do
     {
         cout << "Ingrese primera letra del nombre: "; cin >> primletranombre;
-    } while (primletranombre < 'A' || primletranombre > 'Z' && primletranombre < 'a' || primletranombre > 'z');
+    } while ((primletranombre < 'A' || primletranombre > 'Z') && (primletranombre < 'a' || primletranombre > 'z'));
     return primletranombre;
 }
 
@@ -20,7 +20,7 @@ char ValidarLetraApellido()
     do
     {
         cout << "Ingrese primera letra del apellido: "; cin >> primletraapellido;
-    } while (primletraapellido < 'A' || primletraapellido > 'Z' && primletraapellido < 'a' || primletraapellido > 'z');
+    } while ((primletraapellido < 'A' || primletraapellido > 'Z') && (primletraapellido < 'a' || primletraapellido > 'z'));
     return primletraapellido;
 }
 
